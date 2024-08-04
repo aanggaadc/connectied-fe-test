@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nicolas & Natalia</title>
+    <link rel="icon" href="./assets/favicon.ico" />
+    <link href="./assets/styles/main.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="navbar">
+        <ul class="navbar-menu">
+          <li class="navbar-item">
+            <a href="#home" class="navbar-link mobile">
+              <img
+                class="mobile-menu"
+                src="./assets/icons/ic-home.svg"
+                alt="home"
+              />
+            </a>
+            <a href="#home" class="navbar-link desktop">Home</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#wedding" class="navbar-link mobile">
+              <img
+                class="mobile-menu"
+                src="./assets/icons/ic-event.svg"
+                alt="wedding"
+              />
+            </a>
+            <a href="#wedding" class="navbar-link desktop">The Wedding</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#location" class="navbar-link mobile">
+              <img
+                class="mobile-menu"
+                src="./assets/icons/ic-location-solid.svg"
+                alt="location"
+              />
+            </a>
+            <a href="#location" class="navbar-link desktop">Location</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#photo-gallery" class="navbar-link mobile">
+              <img
+                class="mobile-menu"
+                src="./assets/icons/ic-gallery.svg"
+                alt="gallery"
+              />
+            </a>
+            <a href="#photo-gallery" class="navbar-link desktop">Gallery</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#rsvp" class="navbar-link mobile">
+              <img
+                class="mobile-menu"
+                src="./assets/icons/ic-rsvp.svg"
+                alt="rsvp"
+              />
+            </a>
+            <a href="#rsvp" class="navbar-link desktop">RSVP</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#gift" class="navbar-link mobile">
+              <img
+                class="mobile-menu"
+                src="./assets/icons/ic-gift.svg"
+                alt="gift"
+              />
+            </a>
+            <a href="#gift" class="navbar-link desktop">Gift</a>
+          </li>
+          <li class="navbar-item">
+            <a href="#message" class="navbar-link mobile">
+              <img
+                class="mobile-menu"
+                src="./assets/icons/ic-chat.svg"
+                alt="chat"
+              />
+            </a>
+            <a href="#message" class="navbar-link desktop">Personal Message</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="home" class="hero-couples-container">
+      <div class="flower-container top">
+        <img
+          class="flower-img"
+          src="./assets/images/flower-ornament-1.png"
+          alt="flower"
+        />
+      </div>
+      <div class="flower-container bottom">
+        <img
+          class="flower-img"
+          src="./assets/images/flower-ornament-2.png"
+          alt="flower"
+        />
+      </div>
+      <section class="hero">
+        <img class="hero-logo" src="./assets/images/logo.png" />
+        <h1 class="hero-title">Nicolas & Natania</h1>
+        <p class="hero-description">10. 08. 2024</p>
+        <p class="hero-description">#LAStforNIA</p>
+      </section>
+
+      <section class="couples">
+        <div class="couple-content">
+          <p class="general-text">
+            By the love and grace of God, we cordially request<br />
+            the honour of your presence at the marriage of <br />
+            our beloved son and daughter
+          </p>
+
+          <div class="couple-container">
+            <div class="couple-card">
+              <div class="couple-avatar">
+                <img class="couple-img" src="./assets/images/man.jpg" />
+              </div>
+              <h2 class="couple-name">Nicolas Aditya Siswanto</h2>
+              <p class="general-text">
+                Second son of <br />
+                Mr. Sutiyo Siswanto <br />
+                & Mrs. Anastasia Wiana
+              </p>
+            </div>
+
+            <p class="couple-saparator">&</p>
+
+            <div class="couple-card">
+              <div class="couple-avatar">
+                <img class="couple-img" src="./assets/images/woman.jpg" />
+              </div>
+              <h2 class="couple-name">Maria Natania Jocelinda</h2>
+              <p class="general-text">
+                Second daughter of <br />
+                Mr. Handiprajitno Pranoto <br />
+                & Mrs. Kho Hwie Hong
+              </p>
+            </div>
+          </div>
+
+          <p class="general-text">
+            Our joy will be complete <br />
+            with your presence and blessings <br />
+            at our celebration of love.
+          </p>
+        </div>
+      </section>
+    </div>
+
+    <section id="wedding" class="countdown">
+      <h2 class="countdown-title">SATURDAY, 10 AUGUST 2024</h2>
+
+      <div class="countdown-container">
+        <div id="days" class="countdown-box"></div>
+        <div id="hours" class="countdown-box"></div>
+        <div id="minutes" class="countdown-box"></div>
+        <div id="seconds" class="countdown-box"></div>
+      </div>
+    </section>
+
+    <section id="location" class="location">
+      <div class="location-ornament top left">
+        <img src="./assets/images/flower-ornament-3.png" alt="flower" />
+      </div>
+
+      <div class="location-ornament bottom right">
+        <img src="./assets/images/flower-ornament-4.png" alt="flower" />
+      </div>
+
+      <h2 class="section-title">Location</h2>
+
+      <div class="location-content">
+        <div class="location-card">
+          <div class="location-card-left">
+            <div class="location-image">
+              <img src="./assets/images/map.jpg" alt="map" />
+            </div>
+            <button class="location-btn">
+              <img src="./assets/icons/ic-map.svg" alt="map" />
+              Navigate to location
+            </button>
+          </div>
+
+          <div class="location-card-right">
+            <h3 class="location-name">HOLY MATRIMONY</h3>
+            <div class="location-detail">
+              <div class="location-key">
+                <img src="./assets/icons/ic-clock.svg" alt="location" />
+                Time
+              </div>
+              <p class="location-value">10 AM</p>
+            </div>
+
+            <div class="location-saparator"></div>
+
+            <div class="location-detail">
+              <div class="location-key">
+                <img src="./assets/icons/ic-location.svg" alt="location" />
+                Location
+              </div>
+              <p class="location-value">
+                <b>St. Andreas Kim Tae Gon Catholic Church</b> <br />
+                Puspa Gading Timur No.1 Blok H2, Pegangsaan Dua, Kelapa Gading,
+                Jakarta Utara
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="location-card">
+          <div class="location-card-left">
+            <div class="location-image">
+              <img src="./assets/images/map.jpg" alt="map" />
+            </div>
+            <button class="location-btn">
+              <img src="./assets/icons/ic-map.svg" alt="map" />
+              Navigate to location
+            </button>
+          </div>
+
+          <div class="location-card-right">
+            <h3 class="location-name">HOLY MATRIMONY</h3>
+            <div class="location-detail">
+              <div class="location-key">
+                <img src="./assets/icons/ic-clock.svg" alt="location" />
+                Time
+              </div>
+              <p class="location-value">10 AM</p>
+            </div>
+
+            <div class="location-saparator"></div>
+
+            <div class="location-detail">
+              <div class="location-key">
+                <img src="./assets/icons/ic-location.svg" alt="location" />
+                Location
+              </div>
+              <p class="location-value">
+                <b>St. Andreas Kim Tae Gon Catholic Church</b> <br />
+                Puspa Gading Timur No.1 Blok H2, Pegangsaan Dua, Kelapa Gading,
+                Jakarta Utara
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="photo-gallery" class="photo-gallery">
+      <div class="swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <a href="./assets/images/gallery-1.jpg" data-fancybox="gallery">
+              <img src="./assets/images/gallery-1.jpg" alt="gallery" />
+            </a>
+          </div>
+          <div class="swiper-slide">
+            <a href="./assets/images/gallery-2.jpeg" data-fancybox="gallery">
+              <img src="./assets/images/gallery-2.jpeg" alt="gallery" />
+            </a>
+          </div>
+          ...
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+
+    <section id="rsvp" class="rsvp">
+      <h2 class="section-title">Rsvp</h2>
+      <p class="general-text">
+        Mr./Mrs./Ms. & Family <br />
+        Please confirm your attendance <br />
+        before 5 August 2024
+      </p>
+
+      <form class="rsvp-form" onsubmit="event.preventDefault();">
+        <div class="rsvp-form-group">
+          <label class="rsvp-radio-label">
+            <input
+              type="radio"
+              name="attendance"
+              value="attending"
+              checked
+              class="rsvp-radio-input"
+            />
+            <span class="rsvp-input-box">Attending</span>
+          </label>
+          <label class="rsvp-radio-label">
+            <input
+              type="radio"
+              name="attendance"
+              value="not-attending"
+              class="rsvp-radio-input"
+            />
+            <span class="rsvp-input-box">Not Attending</span>
+          </label>
+        </div>
+
+        <p class="general-text">Choose the event(s) you will be attending</p>
+
+        <div class="rsvp-form-group">
+          <label class="rsvp-radio-label">
+            <input
+              type="radio"
+              name="location_attending"
+              value="holy-matrimony"
+              checked
+              class="rsvp-radio-input"
+            />
+            <span class="rsvp-input-box">Holy Matrimony</span>
+          </label>
+          <label class="rsvp-radio-label">
+            <input
+              type="radio"
+              name="location_attending"
+              value="weeding-reception"
+              class="rsvp-radio-input"
+            />
+            <span class="rsvp-input-box">Weeding Reception</span>
+          </label>
+          <label class="rsvp-radio-label">
+            <input
+              type="radio"
+              name="location_attending"
+              value="both"
+              class="rsvp-radio-input"
+            />
+            <span class="rsvp-input-box">Both</span>
+          </label>
+        </div>
+
+        <p class="general-text">Number of people attending</p>
+
+        <select name="number_attending" class="rsvp-select">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+        </select>
+
+        <p class="general-text">Do you wisht to proceed?</p>
+
+        <div class="rsvp-form-group">
+          <button class="rsvp-input-box">Yes</button>
+          <button class="rsvp-input-box">No</button>
+        </div>
+      </form>
+    </section>
+
+    <div id="gift" class="gift-streaming-container">
+      <div class="flower-container bottom">
+        <img
+          class="flower-img"
+          src="./assets/images/flower-ornament-5.png"
+          alt="flower"
+        />
+      </div>
+      <section class="gift">
+        <h2 class="section-title">Gift</h2>
+        <p class="general-text">
+          Your love, kind wishes and prayer on our wedding day <br />
+          is the greatest gift of all. However, should you wish to send <br />
+          us blessing via online registry that we set up,<br />
+          you can conveniently transfer through our bank account.
+        </p>
+
+        <div class="accounts">
+          <div class="account">
+            <img class="account-logo" src="./assets/images/logo-bca.png" />
+            <p class="account-text">
+              8830395491 <br />
+              Nicolas Aditya <br />
+              Siswanto
+            </p>
+            <button class="btn-copy" onclick="copyAccountNumber('883095491')">
+              Copy
+            </button>
+          </div>
+
+          <div class="account">
+            <img class="account-logo" src="./assets/images/logo-mandiri.png" />
+            <p class="account-text">
+              8830395491 <br />
+              Nicolas Aditya <br />
+              Siswanto
+            </p>
+            <button class="btn-copy" onclick="copyAccountNumber('883095491')">
+              Copy
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="streaming">
+        <h2 class="section-title">Live Streaming</h2>
+        <p class="general-text">
+          You can access the live streaming of our <br />
+          Wedding Reception on the day of our wedding <br />
+          by clicking the button below
+        </p>
+
+        <div class="video">
+          <button class="btn-play">
+            <img src="./assets/icons/ic-play.svg" alt="play" />
+          </button>
+        </div>
+
+        <div class="streaming-date">Live on 10 August 2024 at 18.30 WIB</div>
+      </section>
+    </div>
+
+    <section id="message" class="message">
+      <h2 class="section-title">Personal Message</h2>
+      <p class="general-text">Leave a message and wishes for us!</p>
+
+      <div class="message-content">
+        <form class="message-form">
+          <input class="message-input" />
+          <textarea class="message-textarea"></textarea>
+          <p class="general-text">Add photo or video?</p>
+          <input
+            type="file"
+            name="file-upload"
+            id="file-upload"
+            accept="image/*, video/*"
+            style="display: none"
+          />
+          <label for="file-upload" class="message-upload">
+            <img src="./assets/icons/ic-upload.svg" alt="upload" />
+            Upload
+          </label>
+
+          <div class="message-form-saparator"></div>
+
+          <button class="btn-send">
+            <img src="./assets/icons/ic-send.svg" alt="send" />
+            Send
+          </button>
+          <img
+            class="message-line"
+            src="./assets/images/message-line.png"
+            alt="line"
+          />
+        </form>
+
+        <div class="message-avatars">
+          <div class="avatar-container">
+            <img
+              class="plus-icon"
+              src="./assets/icons/ic-plus.svg"
+              alt="plus"
+            />
+          </div>
+
+          <div class="avatar-container">
+            <div class="avatar">
+              <img src="./assets/images/dummy-avatar.jpg" alt="avatar" />
+            </div>
+          </div>
+        </div>
+
+        <p class="general-text" style="text-align: left">
+          <b>Connectied</b> <br />
+          Wishing you all of the love and happiness!
+        </p>
+
+        <div class="avatar-saparator"></div>
+        <button class="btn-send">
+          <img src="./assets/icons/is-message.svg" alt="message" />
+          See all messages
+        </button>
+      </div>
+    </section>
+
+    <section class="thank-you">
+      <div class="flower-container bottom">
+        <img
+          class="flower-img rotate"
+          src="./assets/images/flower-ornament-1.png"
+          alt="flower"
+        />
+      </div>
+
+      <div class="thank-you-content">
+        <h2 class="thank-you-title">Thank You</h2>
+        <p class="thank-you-description">
+          Thank you for celebriting with us <br />
+          please enjoy on our special day!
+        </p>
+
+        <div class="sologan">
+          Go virtual with
+          <img src="./assets/images/logo-connectied.png" alt="connectied" />
+        </div>
+      </div>
+    </section>
+
+    <div id="videoModal" class="modal">
+      <div class="modal-content">
+        <span class="btn-close">&times;</span>
+        <iframe
+          id="youtubeVideo"
+          width="560"
+          height="315"
+          src=""
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <script type="module">
+      import Swiper from "https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.mjs";
+
+      const swiper = new Swiper(".swiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+        scrollbar: {
+          el: ".swiper-scrollbar",
+        },
+      });
+
+      Fancybox.bind('[data-fancybox="gallery"]', {});
+    </script>
+  </body>
+</html>
